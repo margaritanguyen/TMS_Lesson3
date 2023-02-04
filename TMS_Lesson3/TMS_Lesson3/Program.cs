@@ -7,11 +7,10 @@ namespace TMS_Lesson3
         static void Main(string[] args)
         {
             //task 1
-            int number_t1;
             string result_t1;
 
             Console.WriteLine("Введите номер месяца (1-12): ");
-            number_t1 = Convert.ToInt32(Console.ReadLine());
+            int number_t1 = Convert.ToInt32(Console.ReadLine());
 
             switch (number_t1) 
             {
@@ -45,11 +44,10 @@ namespace TMS_Lesson3
             Console.ReadLine();
 
             //task 2
-            int number_t2;
             string result_t2;
 
             Console.WriteLine("Введите номер месяца (1-12): ");
-            number_t2 = Convert.ToInt32(Console.ReadLine());
+            int number_t2 = Convert.ToInt32(Console.ReadLine());
 
             if (number_t2 == 1 || number_t2 == 2 || number_t2 == 12)
             {
@@ -77,11 +75,10 @@ namespace TMS_Lesson3
             Console.ReadLine();
 
             //task 3
-            int number_t3;
             string result_t3;
 
             Console.WriteLine("Введите число: ");
-            number_t3 = Convert.ToInt32(Console.ReadLine());
+            int number_t3 = Convert.ToInt32(Console.ReadLine());
 
             result_t3 = number_t3 % 2 == 0 ? "четное" : "нечетное";
 
@@ -90,11 +87,10 @@ namespace TMS_Lesson3
             Console.ReadLine();
 
             //task 4
-            int number_t4;
             string result_t4 = string.Empty;
 
             Console.WriteLine("Введите значение температуры: ");
-            number_t4 = Convert.ToInt32(Console.ReadLine());
+            int number_t4 = Convert.ToInt32(Console.ReadLine());
 
             if (number_t4 > -5)
             {
@@ -116,11 +112,10 @@ namespace TMS_Lesson3
             Console.ReadLine();
 
             //task 5
-            int number_t5;
             string result_t5;
 
             Console.WriteLine("Введите число (1-7): ");
-            number_t5 = Convert.ToInt32(Console.ReadLine());
+            int number_t5 = Convert.ToInt32(Console.ReadLine());
 
             switch (number_t5)
             {
